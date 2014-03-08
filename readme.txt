@@ -1,5 +1,6 @@
-	=== Fundify Geolocated Campaigns ===
-Contributors: bobz_zg
+=== Fundify Geolocated Campaigns ===
+Plugin URL: http://wordpress.org/plugins/fundify-geolocated-campaigns/
+Plugin author URL: http://www.bobz.co
 Tags: fundify, google maps, geolocation
 Requires at least: 3.5
 Tested up to: 3.8.1

@@ -1,0 +1,322 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fundify Geolocated Campaigns\n"
+"POT-Creation-Date: 2014-03-02 18:57+0100\n"
+"PO-Revision-Date: 2014-03-02 18:57+0100\n"
+"Last-Translator: \n"
+"Language-Team: Bobz <vb@bobz.co>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../fundify-geolocated-campaigns.php:130
+msgid ""
+"Notice: You need to install <a href=\"https://wordpress.org/plugins/"
+"appthemer-crowdfunding/\" target=\"_blank\">Crowdfunding by Astoundify "
+"plugin</a> and <a href=\"http://themeforest.net/item/fundify-the-wordpress-"
+"crowdfunding-theme/4257622\" target=\"_blank\">Fundify theme</a> in order to "
+"use this plugin"
+msgstr ""
+
+#: ../inc/campaign-edit.php:138
+msgid "Please select your location"
+msgstr ""
+
+#: ../inc/custom-fields.php:230
+msgid "Latitude"
+msgstr ""
+
+#: ../inc/custom-fields.php:234
+msgid "Longitude"
+msgstr ""
+
+#: ../inc/help.php:10
+msgid "Plugin info"
+msgstr ""
+
+#: ../inc/help.php:11
+msgid "Please read.."
+msgstr ""
+
+#: ../inc/help.php:12
+msgid ""
+"This plugin is developed for use with <a href=\"https://wordpress.org/"
+"plugins/appthemer-crowdfunding/\" target=\"_blank\">Crowdfunding by "
+"Astoundify plugin</a> and <a href=\"http://themeforest.net/item/fundify-the-"
+"wordpress-crowdfunding-theme/4257622\" target=\"_blank\">Fundify theme</a>."
+msgstr ""
+
+#: ../inc/help.php:13
+msgid ""
+"Plugin will enable you to display your campaigns on a Google map with "
+"shortcode"
+msgstr ""
+
+#: ../inc/help.php:14
+msgid ""
+"Plugin will add Google Map on \"Start A Campaign\", and \"Edit Campaign\" "
+"page, so users can select their location while they submit campaigns."
+msgstr ""
+
+#: ../inc/help.php:15
+msgid "If Geolocation is not available, map will center showing all campaigns"
+msgstr ""
+
+#: ../inc/help.php:16
+msgid ""
+"If Geolocation is available, map will center to nearest campaigns in user "
+"current location"
+msgstr ""
+
+#: ../inc/help.php:17
+msgid "Plugin uses Google Maps API and Geocoding service"
+msgstr ""
+
+#: ../inc/help.php:18
+msgid ""
+"You need to add your Google Maps API key under Map Settings tab to enable "
+"use of this plugin"
+msgstr ""
+
+#: ../inc/help.php:19 ../inc/updater.php:16
+msgid ""
+"How to obtain API key: <a href=\"https://developers.google.com/maps/"
+"documentation/javascript/tutorial#api_key\" target=\"_blank\">https://"
+"developers.google.com/maps/documentation/javascript/tutorial#api_key</a>"
+msgstr ""
+
+#: ../inc/help.php:20
+msgid "You need to enable Geocoding Service under your Google Maps console"
+msgstr ""
+
+#: ../inc/help.php:21
+msgid ""
+"How to enable \"Geocoding API\": <a href=\"https://developers.google.com/"
+"maps/documentation/geocoding/#api_key\" target=\"_blank\">https://developers."
+"google.com/maps/documentation/geocoding/#api_key</a>"
+msgstr ""
+
+#: ../inc/help.php:22
+msgid ""
+"If you already have active campaigns, you can run 'Location Updater' to "
+"update current campaigns Latitude and Longitude"
+msgstr ""
+
+#: ../inc/help.php:23
+msgid ""
+"To be able to do this, you need to have Geocoding Service enabled under your "
+"Google Maps console, otherwise it will not work"
+msgstr ""
+
+#: ../inc/help.php:24
+msgid ""
+"Location updater is checking current campaign location and retrieves "
+"Latitude and Longitude via Google Maps API, and saves them to database."
+msgstr ""
+
+#: ../inc/help.php:26
+msgid "Shortcode info"
+msgstr ""
+
+#: ../inc/help.php:28
+msgid "Height of map, in pixels, default 350px"
+msgstr ""
+
+#: ../inc/help.php:29
+msgid "Specific post(s) to show"
+msgstr ""
+
+#: ../inc/help.php:30
+msgid ""
+"Displays current campaign on a google map, can be used only on single "
+"campaign page"
+msgstr ""
+
+#: ../inc/help.php:31
+msgid "List of specified campagins by id to show"
+msgstr ""
+
+#: ../inc/help.php:32
+msgid "Number of campaings to display on map"
+msgstr ""
+
+#: ../inc/help.php:33
+msgid "If omitted it will use value from settings"
+msgstr ""
+
+#: ../inc/options-page.php:42
+msgid "Map Settings"
+msgstr ""
+
+#: ../inc/options-page.php:46
+msgid "Location Updater"
+msgstr ""
+
+#: ../inc/options-page.php:50
+msgid "Help"
+msgstr ""
+
+#: ../inc/options-page.php:66
+msgid "API Key"
+msgstr ""
+
+#: ../inc/options-page.php:67
+msgid "Enter your Google maps key."
+msgstr ""
+
+#: ../inc/options-page.php:72
+msgid "Zoom Level"
+msgstr ""
+
+#: ../inc/options-page.php:73
+msgid "Map Zoom Level"
+msgstr ""
+
+#: ../inc/options-page.php:79
+msgid "Pan control"
+msgstr ""
+
+#: ../inc/options-page.php:80
+msgid "Show Pan control"
+msgstr ""
+
+#: ../inc/options-page.php:85
+msgid "Street View"
+msgstr ""
+
+#: ../inc/options-page.php:86
+msgid "Show Street View control"
+msgstr ""
+
+#: ../inc/options-page.php:91
+msgid "Map type"
+msgstr ""
+
+#: ../inc/options-page.php:92
+msgid "Show map type control"
+msgstr ""
+
+#: ../inc/options-page.php:97
+msgid "Custom marker image"
+msgstr ""
+
+#: ../inc/options-page.php:98
+msgid "Enter URL of your custom marker image, use 49x56px png image"
+msgstr ""
+
+#: ../inc/options-page.php:103
+msgid "Number of campaigns"
+msgstr ""
+
+#: ../inc/options-page.php:104
+msgid "Number of campaigns to display on the map"
+msgstr ""
+
+#: ../inc/options-page.php:110
+msgid "Remove location field"
+msgstr ""
+
+#: ../inc/options-page.php:111
+msgid "Remove default location field"
+msgstr ""
+
+#: ../inc/options-page.php:117
+msgid "Dont load script"
+msgstr ""
+
+#: ../inc/options-page.php:118
+msgid ""
+"If you have any conflicts with other plugins, try not to load google map "
+"script with plugin"
+msgstr ""
+
+#: ../inc/shortcode.php:21
+msgid ""
+"You need to enter valid Google Maps API key before you can use shortcode"
+msgstr ""
+
+#: ../inc/updater.php:10 ../inc/updater.php:48
+msgid "Update campaigns"
+msgstr ""
+
+#: ../inc/updater.php:11
+msgid ""
+"Use this tool to update your current campaigns that don't have latitude and "
+"longitude set."
+msgstr ""
+
+#: ../inc/updater.php:12
+msgid ""
+"Plugin will try to update latitude and longitude from currrent location "
+"field using Google Geocoding API service. If it fails you will see a list of "
+"campaigns that did not update so you can update them manually."
+msgstr ""
+
+#: ../inc/updater.php:13
+msgid ""
+"Depending on number of campaigns you have, this may take some time so please "
+"be patient and don't leave this page until entire process is finisehd"
+msgstr ""
+
+#: ../inc/updater.php:14
+msgid "Important notice"
+msgstr ""
+
+#: ../inc/updater.php:15
+msgid "You need to add Google maps API key under Map Settings tab"
+msgstr ""
+
+#: ../inc/updater.php:17
+msgid ""
+"You need to enable \"Geocoding Service\" under your maps account<br /> How "
+"to enable \"Geocoding Service\": <a href=\"https://developers.google.com/"
+"maps/documentation/geocoding/#api_key\" target=\"_blank\">https://developers."
+"google.com/maps/documentation/geocoding/#api_key</a>"
+msgstr ""
+
+#: ../inc/updater.php:18
+msgid "To start the update process click the button below."
+msgstr ""
+
+#: ../inc/updater.php:45
+msgid "Overall number of campaigns: "
+msgstr ""
+
+#: ../inc/updater.php:46
+msgid "Campaigns need to update: "
+msgstr ""
+
+#: ../inc/updater.php:52
+msgid "Updating campaign locations, please wait..."
+msgstr ""
+
+#: ../inc/updater.php:152
+msgid "No campaigns found to update"
+msgstr ""
+
+#: ../inc/updater.php:155
+msgid "Campaigns found: "
+msgstr ""
+
+#: ../inc/updater.php:156
+msgid "Campaigns updated: "
+msgstr ""
+
+#: ../inc/updater.php:157
+msgid "Failed to update: "
+msgstr ""
+
+#: ../inc/updater.php:165
+msgid "Campaigns failed to update"
+msgstr ""
+
+#: ../inc/updater.php:166
+msgid "You can review this campaigns and manually update location"
+msgstr ""

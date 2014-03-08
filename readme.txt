@@ -1,5 +1,6 @@
 === Fundify Geolocated Campaigns ===
-Contributors: bobz_zg
+Plugin URL: http://wordpress.org/plugins/fundify-geolocated-campaigns/
+Plugin author URL: http://www.bobz.co
 Tags: fundify, google maps, geolocation
 Requires at least: 3.5
 Tested up to: 3.8.1
@@ -39,11 +40,17 @@ Depending on number of campaigns you have, this may take some time so please be 
 
 = Shortcode info =
 [fgm_campaigns height="350" show="1,2,3" campaigns="25"]
+
 **height:** Height of map in pixels, default is 350px
+
 **show:** Specific post(s) to show
+
 **show="current":** Displays current campaign on a google map, can be used only on single campaign page
+
 **show="1,2,3,4":** List of specified campagins by id to show
+
 **campaigns="12":** Number of campaings to display on map, if omitted it will use value from settings
+
 All parameters are optional.
 
 

@@ -64,8 +64,12 @@ All parameters are optional.
 == Screenshots ==
 
 1. Campaigns on Google map
-
+2. Settings page
 == Changelog ==
+
+= 0.11 =
+Fixed bug with settings
+Warning: array_key_exists() expects parameter 2 to be array, boolean given fundify-geolocated-campaigns.php on line 94
 
 = 0.1 =
 First release

@@ -3,7 +3,7 @@
     Plugin URL: #
     Description: This plugin enables you to show your Fundify Geolocated campaigns on Google map with shortcode
     Author: Bobz
-    Version: 0.1
+    Version: 0.2
     Author URI: http://www.bobz.co
     Text Domain: vb_fgm
     Domain Path: /lang
@@ -91,7 +91,9 @@ function vb_fgm_plugin_options( $key, $value ) {
 	
 	$options = get_option( 'fgm_map_settings' );
 
-	if( array_key_exists( $key, $options) && $options[$key] == $value ) {
+	//if( is_array(var))
+
+	if( $options && array_key_exists( $key, $options) && $options[$key] == $value ) {
 		return $options[$key];
 	} else {
 		return false;

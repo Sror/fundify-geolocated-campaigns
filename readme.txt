@@ -1,11 +1,15 @@
 === Fundify Geolocated Campaigns ===
-Plugin URL: http://wordpress.org/plugins/fundify-geolocated-campaigns/
-Plugin author URL: http://www.bobz.co
+Author: Bobz
+Author URI: http://www.bobz.co
+Plugin URI: http://wordpress.org/plugins/fundify-geolocated-campaigns/
+Homepage: http://www.bobz.co/fundify-geolocated-campaigns/
 Tags: fundify, google maps, geolocation
 Requires at least: 3.5
 Tested up to: 3.8.1
+Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 0.2
 
 This plugin enables you to show your Fundify Geolocated campagins on Google map with shortcode
 
@@ -67,7 +71,7 @@ All parameters are optional.
 2. Settings page
 == Changelog ==
 
-= 0.11 =
+= 0.2 =
 Fixed bug with settings
 Warning: array_key_exists() expects parameter 2 to be array, boolean given fundify-geolocated-campaigns.php on line 94
 

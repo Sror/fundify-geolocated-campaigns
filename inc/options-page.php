@@ -106,13 +106,6 @@ class VB_FGM_Settings_API {
                     'default' => 999,
                 ),
                 array(
-                    'name' => 'vb_fgm_remove_loc',
-                    'label' => __( 'Remove location field', 'vb_fgm' ),
-                    'desc' => __( 'Remove default location field', 'vb_fgm' ),
-                    'type' => 'text',
-                    'type' => 'checkbox',
-                ),
-                array(
                     'name' => 'vb_fgm_remove_script',
                     'label' => __( 'Dont load script' , 'vb_fgm' ),
                     'desc' => __( 'If you have any conflicts with other plugins, try not to load google map script with plugin', 'vb_fgm' ),

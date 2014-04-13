@@ -254,4 +254,4 @@ class FGM_Astoundify_Crowdfunding_Fields {
                 return $fields;
         }
 }
-add_action( 'init', array( 'FGM_Astoundify_Crowdfunding_Fields', 'instance' ) );;
+add_action( 'init', array( 'FGM_Astoundify_Crowdfunding_Fields', 'instance' ) );

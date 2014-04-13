@@ -16,14 +16,14 @@ define( 'FGM_VERSION', '0.1' );
 define( 'FGM_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 define( 'FGM_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
-include_once ( FGM_PLUGIN_PATH . 'inc/custom-fields.php' );
+
 include_once ( FGM_PLUGIN_PATH . 'inc/class.settings-api.php' );
 include_once ( FGM_PLUGIN_PATH . 'inc/options-page.php' );
 include_once ( FGM_PLUGIN_PATH . 'inc/campaign-edit.php' );
 include_once ( FGM_PLUGIN_PATH . 'inc/shortcode.php' );
 include_once ( FGM_PLUGIN_PATH . 'inc/updater.php' );
 include_once ( FGM_PLUGIN_PATH . 'inc/help.php' );
-
+include_once ( FGM_PLUGIN_PATH . 'inc/custom-fields.php' );
 
 /**
  * Include styles and scripts
@@ -135,17 +135,3 @@ function vb_fgm_fundify_notice($links) {
 	}
 }
 add_action( 'admin_notices', 'vb_fgm_fundify_notice' );
-
-
-/**
- * Unset location field if set in options
- *
- */
-function wes_atcf_shortcode_submit_fields( $fields ) {
-
-	if( vb_fgm_plugin_options( 'vb_fgm_remove_loc', 'on' ) ) {
-		unset( $fields['location'] );
-		return $fields;
-	}
-}
-add_filter( 'atcf_shortcode_submit_fields', 'wes_atcf_shortcode_submit_fields' );

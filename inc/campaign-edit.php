@@ -1,5 +1,5 @@
 <?php
-function append_mapdiv() {
+function vb_fgm_append_mapdiv() {
 
 	global $post;
 	$current_lat = get_post_meta( $post->ID, 'campaign_vb_fgm_lat', true );
@@ -140,4 +140,4 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </p>
 <?
 }
-add_filter('atcf_shortcode_submit_field_after_organization', 'append_mapdiv');
+add_filter('atcf_shortcode_submit_field_after_organization', 'vb_fgm_append_mapdiv');

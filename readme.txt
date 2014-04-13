@@ -9,7 +9,7 @@ Tested up to: 3.8.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Version: 0.2
+Version: 0.3
 
 This plugin enables you to show your Fundify Geolocated campagins on Google map with shortcode
 
@@ -70,6 +70,9 @@ All parameters are optional.
 1. Campaigns on Google map
 2. Settings page
 == Changelog ==
+
+= 0.3 =
+Fixed bug when default campaign fields are missing while plugin is active
 
 = 0.2 =
 Fixed bug with settings
